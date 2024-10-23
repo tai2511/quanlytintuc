@@ -84,7 +84,7 @@ public class ClientView extends JFrame implements ActionListener {
 
 		if (selectedNodeName.equals("Tin tức")) {
 			contentPanel.add(new NewsView(), BorderLayout.NORTH);
-		} else if (selectedNodeName.equals("Loại tin")) {
+		} else if (selectedNodeName.equals("Thể loại")) {
 			contentPanel.add(new Category(), BorderLayout.NORTH);
 		} else {
 			contentPanel.add(new JLabel("Chọn mục từ sidebar để hiển thị nội dung"), BorderLayout.CENTER);
